@@ -1,7 +1,6 @@
 package com;
 
 import com.classes.*;
-import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
@@ -14,7 +13,7 @@ import javafx.stage.Stage;
 
 import java.util.Scanner;
 
-public class HelloApplication extends Application {
+public class Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) {
         Scanner scanner = new Scanner(System.in);
